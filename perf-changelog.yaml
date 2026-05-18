@@ -2729,3 +2729,9 @@
   description:
     - "Add MTP/EAGLE speculative-decoding sibling of qwen3.5-bf16-mi325x-sglang"
   pr-link: https://github.com/SemiAnalysisAI/InferenceX/pull/1483
+
+- config-keys:
+    - kimik2.5-fp4-b300-vllm
+  description:
+    - "Update vLLM image from v0.19.0-cu130 (27d old) to v0.21.0"
+  pr-link: https://github.com/SemiAnalysisAI/InferenceX/pull/1452
