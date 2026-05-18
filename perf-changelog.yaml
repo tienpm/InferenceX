@@ -2717,3 +2717,9 @@
   description:
     - "Update SGLang image from v0.5.10-rocm720-mi30x to v0.5.12-rocm720-mi30x"
   pr-link: https://github.com/SemiAnalysisAI/InferenceX/pull/1426
+
+- config-keys:
+    - glm5-fp8-h200-sglang-mtp
+  description:
+    - "Add MTP/EAGLE speculative-decoding sibling for glm5-fp8-h200-sglang on lmsysorg/sglang:v0.5.12-cu130"
+  pr-link: https://github.com/SemiAnalysisAI/InferenceX/pull/1480
