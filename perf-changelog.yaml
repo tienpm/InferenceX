@@ -2820,3 +2820,9 @@
   description:
     - "Update TensorRT-LLM image from v1.3.0rc11 (34d old) to v1.3.0rc14 (latest pre-release)"
   pr-link: https://github.com/SemiAnalysisAI/InferenceX/pull/1491
+
+- config-keys:
+    - gptoss-fp4-b200-trt
+  description:
+    - "Update TensorRT-LLM image from v1.2.0rc2.post2 (102d old) to v1.3.0rc14 (latest pre-release)"
+  pr-link: https://github.com/SemiAnalysisAI/InferenceX/pull/1490
