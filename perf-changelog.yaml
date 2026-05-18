@@ -2755,3 +2755,10 @@
     - "Update SGLang image from v0.5.11-cu130 to v0.5.12-cu130"
     - "Disable JIT DeepGemm (SGL_ENABLE_JIT_DEEPGEMM=0) to bypass v0.5.12 DeepGemm TMA-descriptor regression on B300 — see sgl-project/sglang#25551"
   pr-link: https://github.com/SemiAnalysisAI/InferenceX/pull/1421
+
+- config-keys:
+    - dsr1-fp8-b200-trt
+    - dsr1-fp8-b200-trt-mtp
+  description:
+    - "Update TensorRT-LLM image (off: v1.2.0rc6.post2 109d / mtp: v1.2.0rc6.post3 102d) to v1.3.0rc14 (latest pre-release)"
+  pr-link: https://github.com/SemiAnalysisAI/InferenceX/pull/1488
