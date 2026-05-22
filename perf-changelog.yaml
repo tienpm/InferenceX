@@ -3123,3 +3123,9 @@
     - "Search-space: tp:8 ep:8 (TEP=8), conc-end 128 chosen at saturation per local sweep"
     - "Local bench: TEP=8 peaks at C=128 with 26923 tot tps (+178% vs TEP=4 peak at C=32 in May 6 j11600242 sweep)"
   pr-link: https://github.com/SemiAnalysisAI/InferenceX/pull/1516
+
+- config-keys:
+    - qwen3.5-fp8-mi355x-atom-mtp
+  description:
+    - "Add --use-chat-template to run_benchmark_serving so prompts are formatted with the Qwen chat template (matching the other Qwen MTP recipes)"
+  pr-link: https://github.com/SemiAnalysisAI/InferenceX/pull/1555
