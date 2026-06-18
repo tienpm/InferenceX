@@ -1,3 +1,6 @@
 **/__pycache__/**
 **/.coverage
 experimental/multiturn/vllm_benchmark/results/
+results/**
+!results/
+!results/.gitkeep
