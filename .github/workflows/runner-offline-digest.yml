@@ -1,6 +1,6 @@
 name: Runner Offline Digest
 
-# Daily check that lists self-hosted runners reporting `offline` and posts
+# Manual check that lists self-hosted runners reporting `offline` and posts
 # a summary + threaded details to Slack. No post when nothing is offline.
 #
 # Required secrets:
@@ -11,8 +11,6 @@ name: Runner Offline Digest
 #                      of channel C09PULGMVNG.
 
 on:
-  schedule:
-    - cron: '13 14 * * *'  # daily 14:13 UTC ≈ 8:13 AM CST (9:13 AM CDT during DST)
   workflow_dispatch:
 
 permissions:
